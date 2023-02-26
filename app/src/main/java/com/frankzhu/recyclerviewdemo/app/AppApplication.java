@@ -12,7 +12,7 @@ import android.content.Context;
  * Date         	Author        		Version        	Description
  * -----------------------------------------------------------------------------------
  * 2015/2/25        ZhuWenWu            1.0                    1.0
- * Why & What is modified:
+ * Why & What modified:
  */
 public class AppApplication extends Application{
     private static Context sContext;

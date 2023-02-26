@@ -21,7 +21,7 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         int index = getIntent().getIntExtra("position", 0);
-        Log.d("NormalTextViewHolder", "onClick--> index = " + index);
+        Log.d("NormalTextViewHolder", "onClick--> ondex= " + index);
         String title = getIntent().getStringExtra("title");
         setTitle(title);
         updateFragment(index);
